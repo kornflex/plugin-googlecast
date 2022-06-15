@@ -29,7 +29,7 @@ sudo apt-get install -y python3-dev python-requests python3-pip
 echo 68 > /tmp/dependancy_googlecast_in_progress
 echo ""
 echo "-- Installation of audio sox library"
-sudo apt-get install -y sox
+sudo apt-get install -y sox libsox-fmt-mp3
 echo 71 > /tmp/dependancy_googlecast_in_progress
 echo ""
 echo "-- Installation of TTS libraries"
